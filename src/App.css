@@ -1,0 +1,22 @@
+.ag-chart-wrapper {
+  height: 560px !important;
+}
+
+/* @media screen (max-width: 992px) {
+    .ag-chart-wrapper {
+        height: 567px !important;
+    }
+  } */
+
+* {
+  scroll-behavior: smooth;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
